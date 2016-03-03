@@ -42,6 +42,10 @@ class Hodor(object):
         hodor = self.hodor()
         return hodor
 
+    def __str__(self):
+        return self.hodor()
+
+
 hodor = Hodor(HODOR)
 
 
